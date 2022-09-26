@@ -1,8 +1,7 @@
 # Web app desarrollada con React js 
 
-Este proyecto está basado en la solicitud de una prueba técnica.
-La cual consistía en el desarrollo de un crud de tareas con React JS..\
-La aplicaión debe listar tareas, agregar una tarea, remover una tarea y editar una tarea..\
+Este proyecto está basado en la solicitud de una prueba técnica, la cual consistía en el desarrollo de un crud de tareas con React JS.\
+La aplicaión debe listar tareas, agregar una tarea, remover una tarea y editar una tarea.\
 Aqui dejo el link del proyecto ejecutado: https://listado-tareas-crud.netlify.app/
 
 
