@@ -1,4 +1,4 @@
-# Web app desarrollado con React js 
+# Web app desarrollada con React js 
 
 Este proyecto está basado en la solicitud de una prueba técnica.
 La cual consistía en el desarrollo de un crud de tareas con React JS..\
