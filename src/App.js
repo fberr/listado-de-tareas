@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import FormAdd from './forms/FormAdd';
+import ListTareas from './ListTareas';
+import {useSelector} from 'react-redux';
 
 function App() {
+  const taskstate = useSelector (state => state.tasks);
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='mt-4 position-relative'>Listado de Tareas <span className='badge rounded-pill bg-danger'>{taskstate.length}</span></h1>
+      <FormAdd />
+      <ListTareas />
     </div>
   );
 }
