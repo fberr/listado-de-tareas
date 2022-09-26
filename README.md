@@ -8,8 +8,8 @@ Aqui dejo el link del proyecto ejecutado: https://listado-tareas-crud.netlify.ap
 ## Tecnologías 
 
 Las tecnologías utilizadas fueron:\
-React \
-Redux \
+React js\
+Redux Toolkit\
 UUID \
 Bootstrap v5
 
